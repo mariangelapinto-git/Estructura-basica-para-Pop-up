@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>My popUp</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="container-images" id="gallery-img">
+        <div class="active-img">
+          <a href="#popup-img-big"
+            ><img
+              src="https://cdn.pixabay.com/photo/2019/09/11/11/39/architecture-4468573_1280.jpg"
+              alt="valle"
+            />
+          </a>
+        </div>
+
+        <!--Imagenes pequenas-->
+        <div class="alter-imgs">
+          <a href="#popup-img-small-1">
+            <img
+              class="item1"
+              src="https://cdn.pixabay.com/photo/2018/06/04/18/32/rhine-river-3453860_1280.jpg"
+              alt="valle"
+            />
+          </a>
+          <a href="#popup-img-small-2">
+            <img
+              class="item2"
+              src="https://cdn.pixabay.com/photo/2022/01/28/20/38/road-6975808_1280.jpg"
+              alt="ciudad"
+            />
+          </a>
+          <a href="#popup-img-small-3">
+            <img
+              class="item3"
+              src="https://cdn.pixabay.com/photo/2015/03/31/23/08/neuschwanstein-701732_1280.jpg"
+              alt="castillo"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="description">
+        <h1>Alemania y sus bellezas</h1>
+        <p>
+          Alemania, un crisol de historia y cultura, se erige como una potencia
+          europea con raíces profundas. Desde las antiguas tribus germánicas
+          hasta la unificación del país en el siglo XIX y su posterior
+          reconstrucción tras las guerras mundiales, Alemania ha sido testigo de
+          transformaciones radicales. Su rica herencia se refleja en sus
+          ciudades medievales, castillos majestuosos, y una vibrante escena
+          artística y musical. La filosofía, la literatura y la ciencia alemanas
+          han dejado una huella imborrable en el mundo, con figuras como Kant,
+          Goethe y Einstein. Hoy en día, Alemania es un país moderno y
+          tecnológicamente avanzado, pero conserva sus tradiciones y valores,
+          como la puntualidad, la eficiencia y la pasión por la cerveza.
+          Alemania, un mosaico de paisajes, se extiende desde las costas del Mar
+          del Norte y el Báltico hasta las majestuosas montañas de los Alpes.
+          Sus bosques frondosos, ríos caudalosos y lagos cristalinos ofrecen un
+          entorno natural incomparable.
+        </p>
+      </div>
+    </main>
+    <!--Popus-->
+    <!--Popus IMG Big Main-->
+    <div class="container-popup-img" id="popup-img-big">
+      <div class="popup-content">
+        <figure>
+          <a href="#gallery-img" class="popup-close">&times;</a>
+          <img
+            src="https://cdn.pixabay.com/photo/2019/09/11/11/39/architecture-4468573_1280.jpg"
+            alt="valle"
+            class="img-popup"
+          />
+        </figure>
+      </div>
+    </div>
+    <!-- imagen 1-->
+    <div class="container-popup-img" id="popup-img-small-1">
+      <div class="popup-content">
+        <figure>
+          <a href="#gallery-img" class="popup-close">&times;</a>
+          <img
+            class="item1"
+            src="https://cdn.pixabay.com/photo/2018/06/04/18/32/rhine-river-3453860_1280.jpg"
+            alt="valle"
+            class="img-popup"
+          />
+        </figure>
+      </div>
+    </div>
+    <!-- imagen 2-->
+    <div class="container-popup-img" id="popup-img-small-2">
+      <div class="popup-content">
+        <figure>
+          <a href="#gallery-img" class="popup-close">&times;</a>
+          <img
+            class="item2"
+            src="https://cdn.pixabay.com/photo/2022/01/28/20/38/road-6975808_1280.jpg"
+            alt="ciudad"
+            class="img-popup"
+          />
+        </figure>
+      </div>
+    </div>
+    <!-- imagen 3-->
+    <div class="container-popup-img" id="popup-img-small-3">
+      <div class="popup-content">
+        <figure>
+          <a href="#gallery-img" class="popup-close">&times;</a>
+          <img
+            class="item3"
+            src="https://cdn.pixabay.com/photo/2015/03/31/23/08/neuschwanstein-701732_1280.jpg"
+            alt="castillo"
+            class="img-popup"
+          />
+        </figure>
+      </div>
+    </div>
+  </body>
+</html>
